@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background:linear-gradient(187deg, #56abc7, #98FB98, #B0C4DE);
+    min-height: 100vh;
+    color: rgba(35, 34, 34, 0.673);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calculadora{
+    position: absolute;
+    background: transparent ;
+    box-shadow: 1px 2px 20px 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 15px;
+    height: 280px; 
+    
+}
+.tex{
+    background: transparent;
+    box-shadow: 2px 2px 2px 5px rgba(147, 238, 182, 0.749);
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+.botao{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #0ab75237;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 1px;
+}
+.botao:hover{
+    background-color: rgb(19, 227, 99);
+}
+.ig{
+    height: 83px;
+    width: 41px;
+    border-radius: 3px;
+    background-color: #06682fab;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.po{
+    height: 40px;
+    width: 85px;
+    border-radius: 3px;
+    background-color: #0ab75237;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+.ig:hover{
+    background-color: rgb(19, 227, 99);
+}
+.po:hover{
+    background-color: rgb(19, 227, 99);
+}
+.vis{
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #06682fab;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin: 1px;
+}
+.vis:hover{
+    background-color: rgb(19, 227, 99);
+}
+#resultado{
+    width: 170px;
+    height: 20px;;
+    background-color: rgba(240, 248, 255, 0.51);
+    margin-left: 3px;
+    border-radius: 3px;
+    text-align: right;
+}
